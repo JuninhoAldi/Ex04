@@ -1,1 +1,2 @@
 # Ex04
+Cada tipo de pagamento implementa a interface PaymentStrategy com o método processPayment(), e o código apenas invoca esse método, sem saber qual pagamento está sendo feito. O Factory Method Pattern é utilizado pela classe PaymentFactory, que cria a instância do método de pagamento correspondente à escolha do usuário, centralizando a criação e tornando fácil adicionar novos métodos de pagamento sem alterar o código principal.
